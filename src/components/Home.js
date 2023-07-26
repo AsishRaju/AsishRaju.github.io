@@ -5,17 +5,17 @@ import {motion} from 'framer-motion'
 const Home = () => {
   return (
     <motion.div 
-    className="overflow-hidden App flex flex-col justify-center items-start md:items-center mt-32 md:mt-48 p-10 pt-12"
+    className="overflow-hidden App flex flex-col justify-center items-center md:items-center mt-32 md:mt-48 p-10 pt-12"
     initial={{ opacity: 0}}
     animate={{ opacity: 1 }}
     transition={{ delay: 0.2 }}>
         <section 
-        className='grid grid-cols-1 items-start md:grid-cols-2 md:items-center md:w-[60%]'>
+        className='grid grid-cols-1 items-start md:grid-cols-2 md:items-center md:w-[60%] justify-items-center'>
             <picture>
                 <img src="/images/dp.jpg" alt='my profile' className='mb-4 w-32 h-32 rounded-full object-cover md:h-48 md:w-48 md:mb-0'></img>
             </picture>
 
-            <article>
+            <article className='text-center'>
 
                 <h1 className='mb-2 text-xl font-bold font-sans md:text-4xl'>asish raju</h1>
                 <h3 className='font-normal  md:text-xl'>
