@@ -25,7 +25,7 @@ const About = () => {
                 <br></br>
                 <p className='text-md'>Hit me up on <a href='https://www.linkedin.com/in/asishraju/' target='_blank.' className='underline decoration-green-500 decoration-2 hover:decoration-green-600'>linkedin</a> or <a href='mailto:vashish888@gmail.com' target='_blank.' className='underline decoration-green-500 decoration-2 hover:decoration-green-600'>mail</a>.</p>
                 <br></br>
-                <a href='https://drive.google.com/file/d/1v7oB-KFzhAddp9vbX46DXgmht5lOqo-6/view?usp=sharing' target='_blank.'>
+                <a href='https://drive.google.com/file/d/1_JgWsuaz-ahlJ30Y_T4XjThbO74O6KsF/view?usp=drive_link' target='_blank.'>
                     <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-4 py-2 text-center mb-4 w-30">
                         <div className='flex items-center gap-2'>
                             <Eye />
