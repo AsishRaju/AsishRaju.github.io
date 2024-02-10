@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import Project from './Project'
 import {motion} from 'framer-motion'
 import projects from '../data/projects.json';
