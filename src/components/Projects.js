@@ -3,9 +3,15 @@ import Project from './Project'
 import {motion} from 'framer-motion'
 import projects from '../data/projects.json';
 import { FaGithubSquare as Github,} from 'react-icons/fa'
+import ReactGA from "react-ga4";
+
 
 
 const Projects = () => {
+
+    useEffect(()=>{
+        ReactGA.send({ hitType: "pageview", page: "/projects", title: "Projects" });
+    },[])
   
   return (
     <motion.div className='mt-32 p-12 h-auto flex flex-col justify-evenly items-start md:items-center'

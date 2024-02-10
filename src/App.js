@@ -9,7 +9,7 @@ import ReactGA from "react-ga4";
 function App() {
 
     useEffect(() => {
-        // ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+        ReactGA.initialize('G-6WYLQBK503');
     }, [])
 
   return (

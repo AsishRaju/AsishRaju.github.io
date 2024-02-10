@@ -1,8 +1,16 @@
 import React from 'react'
 import { FaGithubSquare as Github, FaTwitterSquare as Twitter, FaLinkedin as Linkedin, FaDownload as Download } from 'react-icons/fa'
 import {motion} from 'framer-motion'
+import { useEffect } from 'react'
+import ReactGA from "react-ga4";
+
 
 const Home = () => {
+
+    useEffect(()=>{
+        ReactGA.send({ hitType: "pageview", page: "/home", title: "Homepage" });
+    },[])
+
   return (
     <motion.div 
     className="overflow-hidden App flex flex-col justify-center items-center md:items-center mt-32 md:mt-48 p-10 pt-12"
